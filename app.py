@@ -93,7 +93,7 @@ class MyApp(App):
         textinput = TextInput(text = 'Guest', multiline = False,
                               size_hint = (.25, .06),
                               pos_hint = {'x':.05, 'y':.72 },
-                              font_size = 32)
+                              font_size = 24)
         textinput.bind(text = self._on_name_enter)
 
         self.room_1_users = TextInput(text = '', multiline = True,
